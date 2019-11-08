@@ -1,0 +1,10 @@
+package ie.gmit.sw;
+
+public interface Typeator {
+
+	public int execute();
+	public int invoke();
+	private int init (int num) {
+		return num;
+	}
+}

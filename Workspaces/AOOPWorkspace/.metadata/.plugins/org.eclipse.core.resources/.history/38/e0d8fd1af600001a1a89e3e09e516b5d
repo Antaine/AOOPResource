@@ -1,0 +1,8 @@
+package ie.gmit.sw;
+
+public class TypeatorImpl implements Typeator {
+
+	public int execute() {
+		return 0;
+	}
+}

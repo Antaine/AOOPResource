@@ -1,0 +1,15 @@
+package ie.gmit.sw.builder;
+
+import java.util.ServiceLoader;
+import ie.gmit.character.*;
+import ie.gmit.sw.hamming.*;
+public class CharacterDirector implements FuzzyMeasurable, NormalizedMeasurable
+{
+private Measurable measurable;
+//Composepublic CharacterDirector() {loadSPI();}
+public CharacterDirector(Measurable  m) {
+	//Dependency injectionthis.measurable = m;
+	}
+private void loadSPI() {//Dependency injection
+}
+}

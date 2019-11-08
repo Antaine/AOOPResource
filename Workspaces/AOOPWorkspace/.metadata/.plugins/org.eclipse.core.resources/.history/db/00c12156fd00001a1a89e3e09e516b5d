@@ -1,0 +1,9 @@
+package ie.gmit.sw;
+
+public enum TypeatorType {
+
+	//Simple{};
+	TypeatorType Simple;
+	void Complex() {
+	}
+}

@@ -1,0 +1,8 @@
+package ie.gmit.sw;
+
+public interface DerivedTypeator extends {
+	
+	public int execute();
+	public int call();
+
+}

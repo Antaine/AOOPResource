@@ -1,0 +1,18 @@
+package ie.gmit.sw;
+
+public class TypeatorRunner {
+
+public static void main(String[] args) {
+	TypeatorContainer tc = TypeatorContainer.getInstance();
+	TypeatorFactory tf = TypeatorFactory.GetInstance();	
+	
+
+	for(int i=0;i<100;i++ )
+	{
+		tc.add(tf.newTypeator());
+	}
+	
+	Typeator[] types = tc.findAll();
+}
+
+}

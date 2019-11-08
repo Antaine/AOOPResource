@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;ie.gmit.sw.ListWritable.java&apos; to &apos;ListWriterable.java&apos;&#x0A;- Original project: &apos;Adapter&apos;&#x0A;- Original element: &apos;ie.gmit.sw.ListWritable.java&apos;&#x0A;- Renamed element: &apos;ie.gmit.sw.ListWriterable.java&apos;" description="Rename compilation unit &apos;ListWritable.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;ie.gmit.sw{ListWritable.java" name="ListWriterable.java" references="false" stamp="1571229348828" version="1.0"/>
+</session>

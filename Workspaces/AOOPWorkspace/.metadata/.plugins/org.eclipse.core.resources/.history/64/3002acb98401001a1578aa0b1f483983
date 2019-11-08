@@ -1,0 +1,13 @@
+package ie.gmit.sw;
+
+public interface Typeator {
+
+	public static final int Max = 5;
+	public abstract int execute();
+	public default int invoke() {
+		
+	};
+	private int init (int num) {
+		return num + 1;
+	}
+}

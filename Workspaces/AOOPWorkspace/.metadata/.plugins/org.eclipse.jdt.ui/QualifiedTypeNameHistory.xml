@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="ie.gmit.sw.builder.CharacterDirector"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="sun.security.jca.GetInstance"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="ie.gmit.sw.DefaultTypeator"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ie.gmit.sw.TypeatorContainer"/>
+<fullyQualifiedTypeName name="ie.gmit.sw.TypeatorFactory"/>
+<fullyQualifiedTypeName name="ie.gmit.sw.DerivedTypeator"/>
+<fullyQualifiedTypeName name="ie.gmit.sw.DerivedTypeatorImpl"/>
+<fullyQualifiedTypeName name="ie.gmit.sw.Typeator"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,33 @@
+package ie.gmit.sw;
+
+import java.util.Date;
+
+public class DefaultTypeator implements Typeator{
+	
+		
+
+	@Override
+	public void setName(String s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getName() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setDate(Date d) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Date getDate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,9 @@
+package ie.gmit.sw;
+
+public interface Stackable<E> {
+
+	public void push(E element);
+	public E pop();
+	public E peek();
+	public boolean isEmpty();
+}

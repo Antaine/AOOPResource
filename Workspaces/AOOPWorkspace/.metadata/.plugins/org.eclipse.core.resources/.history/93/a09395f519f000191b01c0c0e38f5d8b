@@ -1,0 +1,36 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+
+public class StackableImpl<E> extends ArrayList<E> implements Stackable<E> {
+
+	@Override
+	public void push(E element) {
+		assert element != null;
+		super.add(element);
+		
+		assert !isEmpty();
+		assert peek() == element;
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public E pop() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public E peek() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

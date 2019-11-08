@@ -1,0 +1,11 @@
+package ie.gmit.sw;
+
+public enum TypeatorType {
+
+	//Simple{};
+	Simple{};
+	public enum Simple { WINTER, SPRING, SUMMER, FALL } 
+	public enum Complex { SPRING, SUMMER, FALL } 
+	void Complex() {
+	}
+}

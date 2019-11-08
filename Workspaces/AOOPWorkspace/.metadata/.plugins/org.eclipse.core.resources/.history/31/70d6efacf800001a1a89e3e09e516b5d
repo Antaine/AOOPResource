@@ -1,0 +1,17 @@
+package ie.gmit.sw;
+
+public class DerivedTypeatorImpl implements DerivedTypeator {
+
+	@Override
+	public int execute() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int call() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

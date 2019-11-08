@@ -1,0 +1,26 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class TypeatorContainer {
+	private TypeatorContainer tc = new TypeatorContainer();
+	private Collection<Typeator> col = new ArrayList<>();
+	
+	public static TypeatorContainer getInstance(); {
+		// TODO Auto-generated constructor stub
+		return tc;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return this.getClass().getName();
+	}
+
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		System.out.println(this.toString() + "about to be GC'd");
+	}
+}

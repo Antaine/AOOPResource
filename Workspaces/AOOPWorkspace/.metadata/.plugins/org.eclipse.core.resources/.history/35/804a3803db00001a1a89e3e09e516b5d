@@ -1,0 +1,61 @@
+package ie.gmit.sw;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
+
+public class TypeatorContainer {
+	private static TypeatorContainer tc = new TypeatorContainer();
+	private Collection<Typeator> col = new ArrayList<>();
+	
+	public static TypeatorContainer getInstance() {
+		// TODO Auto-generated constructor stub
+		return tc;
+	}
+	
+	
+	
+	public Object[] toArray() {
+		return col.toArray();
+	}
+
+
+
+	public void add(Typeator e) {
+		col.add(e);
+	}
+
+	
+
+
+	public void remove(Object o) {
+		col.remove(o);
+	}
+
+	public void modify(Object o)
+	{
+		
+		
+	}
+	
+	private Typeator copy(Typeator t) {
+		return new DefaultTypeator(t.getName(), copyDate(t.getDate()));
+	}
+
+	private Date copyDate(Date date)
+	{
+		return new Date(date.getTime()) ;
+		
+	}
+
+	@Override
+	public String toString() {
+		return this.getClass().getName();
+	}
+
+	@Override
+	protected void finalize() throws Throwable {
+		// TODO Auto-generated method stub
+		System.out.println(this.toString() + "about to be GC'd");
+	}
+}
